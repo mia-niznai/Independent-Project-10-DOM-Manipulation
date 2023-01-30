@@ -4,7 +4,9 @@
 
 ## DOM MANIPULATION ##
 
-### Task 1: Change the content of the `<p>` element with id="demo".###
+### The DOM Programming Interface ###
+
+#### Task 1: Change the content of the `<p>` element with id="demo".####
 
 ```
 <!DOCTYPE html>
@@ -24,7 +26,9 @@ document.getElementById("demo").innerHTML = "Here I can add whatever new content
 ___
 ---
 
-### Task 2: Find an element in the DOM, usign the element id.###
+### Finding HTML Element by Id ###
+
+#### Task 2: Find an element in the DOM, usign the element id.####
 
 ```
 <!DOCTYPE html>
@@ -48,7 +52,9 @@ document.getElementById("demo").innerHTML = "The text from the intro paragraph i
 ___
 ---
 
-### Task3: Find all `<p>` elements by Tag Name. ###
+### Finding HTML Elements by Tag Name ###
+
+#### Task3: Find all `<p>` elements by Tag Name. ####
 
 ```
 <!DOCTYPE html>
@@ -76,7 +82,7 @@ document.getElementById("demo").innerHTML = "The text in this paragraph (index 0
 ---
 ___
 
-### Task 4: Find the element with id="main", and then find all the `<p>` elements inside "main".
+#### Task 4: Find the element with id="main", and then find all the `<p>` elements inside "main". ####
 
 ```
 <!DOCTYPE html>
@@ -107,7 +113,10 @@ document.getElementById("demo").innerHTML = "The first paragraph (index 0) insid
 ___
 ---
 
-### Task 5: Use `getElementsByClassName()` to return a list of all elements with class = "intro". ###
+
+### Finding HTML Elements by Class Name ###
+
+#### Task 5: Use `getElementsByClassName()` to return a list of all elements with class = "intro". ####
 
 ```
 <!DOCTYPE html>
@@ -134,7 +143,9 @@ document.getElementById("demo").innerHTML = "The first paragraph (index 0) with 
 ___
 ---
 
-### Task 6: Use `querySelectorAll()` method to find all `<p>` elements with class="intro". ###
+### Finding HTML Elements by CSS Selectors ###
+
+#### Task 6: Use `querySelectorAll()` method to find all `<p>` elements with class="intro". ####
 
 ```
 <!DOCTYPE html>
@@ -164,4 +175,6 @@ document.getElementById("demo").innerHTML = "The first paragraph (index 0) with 
 ___
 ---
 
-### Task 7: Finds the form element with id="frm1", in the forms collection, and displays all element values. ###
+### Finding HTML Elements by HTML Object Collections ###
+
+#### Task 7: Finds the form element with id="frm1", in the forms collection, and displays all element values. ####
