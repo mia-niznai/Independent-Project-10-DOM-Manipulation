@@ -110,7 +110,7 @@ ___
 ### Task 5: Use `getElementsByClassName()` to return a list of all elements with class = "intro". ###
 
 ```
-<DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <body>
 
@@ -134,3 +134,29 @@ document.getElementById("demo").innerHTML = "The first paragraph (index 0) with 
 ___
 ---
 
+### Task 6: Use `querySelectorAll()` method to find all `<p>` elements with class="intro". ###
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2> JavaScript HTML DOM </h2>
+
+<p> Finding HTML Elements by Query Selector </p>
+<p class = "intro"> Hello, world! </p>
+<p class = "intro"> This example demonstrates the <b>querySelectorAll</b> method. </p>
+
+<p id = "demo"></p>
+
+<script>
+
+const x = document.querySelectorAll(".intro")
+document.getElementById("demo").innerHTML = "The first paragraph (index 0) with class intro is: " + x[0].innerHTML
+
+</script>
+
+</body>
+</html>
+
+```
