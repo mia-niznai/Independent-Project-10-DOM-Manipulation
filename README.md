@@ -451,5 +451,24 @@ document.getElementById("p2").style.fontSize = "larger";
 </html>
 
 ```
+
+#### Task 17: Change style of a HTML element with `id="id1"` using events. ####
+
+```
+<DOCTYPE html>
+<html>
+<body>
+
+<h1 id="id1"> TITLE </h1>
+
+<button type = "button"
+onclick="document.getElementById('id1').style.color = 'red'">
+Click me! </button>
+
+</body>
+</html>
+
+```
 ___
 ---
+
