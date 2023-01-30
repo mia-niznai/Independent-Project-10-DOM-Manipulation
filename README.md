@@ -264,3 +264,27 @@ ___
 
 ### Changing the Value of an Attribute ###
 
+#### Task 10: Change the value of the src attribute of an `<img>` element.
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2> JavaScript HTML DOM </h2>
+<img id = "image" scr= "smile.gif" width = "160" height = "120">
+
+<script>
+document.getElementById("image").src = "landscape.jpg";
+</script>
+
+<p> The original image was smiley.gif, but the script has changed it to landscape.jpg.</p>
+
+</body>
+</html>
+
+```
+___
+---
+
+###
