@@ -287,4 +287,24 @@ document.getElementById("image").src = "landscape.jpg";
 ___
 ---
 
-###
+### Dynamic HTML content ###
+
+#### Task 11: Create dynamic HTML content with JavaScript: Date : Mon Jan 30 2023 10:05:29 GMT+0200 (Eastern European Standard Time). ####
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id = "demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = "Date: " + Date();
+</script>
+
+</body>
+</html>
+
+```
+
+
