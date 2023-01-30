@@ -4,6 +4,9 @@
 
 ## DOM MANIPULATION ##
 
+___
+---
+
 ### The DOM Programming Interface ###
 
 #### Task 1: Change the content of the `<p>` element with id="demo".####
