@@ -307,4 +307,28 @@ document.getElementById("demo").innerHTML = "Date: " + Date();
 
 ```
 
+#### Task 12: Use `document.write()` to write directly to the HTML output stream. ####
 
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<p> DO RE MI FA SOL LA SI DO </p>
+
+<script>
+document.write(Date());
+</script>
+
+<p> DO SI LA SOL FA MI RE DO </p>
+
+</body>
+</html>
+
+```
+___
+---
+
+### JavaScript Form Validation ###
+
+#### Task 13: 
