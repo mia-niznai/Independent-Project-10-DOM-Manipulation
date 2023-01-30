@@ -82,7 +82,6 @@ document.getElementById("demo").innerHTML = "The text in this paragraph (index 0
 
 ```
 
----
 ___
 
 #### Task 4: Find the element with id="main", and then find all the `<p>` elements inside "main". ####
@@ -181,3 +180,87 @@ ___
 ### Finding HTML Elements by HTML Object Collections ###
 
 #### Task 7: Finds the form element with id="frm1", in the forms collection, and displays all element values. ####
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2> JavaScript HTML DOM </h2>
+<p> Finding HTML Elements using <b>document forms</b>.</p>
+
+<form id = "frm1" action = "/action_page.php">
+    First name: <input type = "text" name = "fname" value = "Donald"> <br>
+    Last name: <input type = "text" name = "lname" value = "Duck"> <br><br>
+    <input type: "submit" value="Submit">
+    </form>
+
+<p> These are the values for each element in the form: </p>
+
+<p id= "demo"> </p>
+
+<script>
+const x = document.forms("frm1");
+let text = "";
+for (let i=0; i < x.length; i++){
+    text += x.elements.value + "</br>";
+}
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>
+
+```
+
+___
+---
+
+### JavaScript HTML DOM - Changing HTML ###
+
+#### Task 8: Modify the content of an HTML element `<p>` by using the innerHTML property. ####
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2> JavaScript can Change HTML </h2>
+
+<p id = "p1"> Hello, World! </p>
+
+<script>
+document.getElementById("p1").innerHTML = "new text";
+
+</script>
+
+<p> The paragraph above was changed by a script. </p>
+</body>
+</html>
+
+```
+
+#### Task 9: Change the content of the `<h1>` element. ####
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2 id = "id01"> Old heading </h2>
+
+<script>
+const element = document.getElementById("id01");
+element.innerHTML = "new heading";
+</script>
+
+</body>
+</html>
+
+```
+
+---
+___
+
+### Changing the Value of an Attribute ###
+
