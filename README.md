@@ -705,3 +705,69 @@ document.getElementById("myBtn").addEventListener("click", function() {
 </html>
 
 ```
+
+#### Task 26: Add many event handlers to the same element. ####
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript addEventListener()</h2>
+
+<p>This example uses the addEventListener() method to add two click events to the same button.</p>
+
+<button id="myBtn">Try it</button>
+
+<script>
+var x = document.getElementById("myBtn");
+x.addEventListener("click", myFunction);
+x.addEventListener("click", someOtherFunction);
+
+function myFunction() {
+  alert ("Hello World!");
+}
+
+function someOtherFunction() {
+  alert ("This function was also executed!");
+}
+</script>
+
+</body>
+</html>
+
+```
+
+#### Task 27: Pass parameter values using an addEventListener. ####
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript addEventListener()</h2>
+
+<p>This example demonstrates how to pass parameter values when using the addEventListener() method.</p>
+
+<p>Click the button to perform a calculation.</p>
+
+<button id="myBtn">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+let p1 = 5;
+let p2 = 7;
+document.getElementById("myBtn").addEventListener("click", function() {
+  myFunction(p1, p2);
+});
+
+function myFunction(a, b) {
+  document.getElementById("demo").innerHTML = a * b;
+}
+</script>
+
+</body>
+</html>
+
+```
