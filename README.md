@@ -584,7 +584,7 @@ ___
 </html>
 
 ```
-#### Task 21: 20: Make the content of the `<h3>` element change when a user clicks on it, this time using a function called from the event handler. ####
+#### Task 21: Make the content of the `<h3>` element change when a user clicks on it, this time using a function called from the event handler. ####
 
 ```
 <!DOCTYPE html>
@@ -604,7 +604,7 @@ function changeText(id){
 </html>
 
 ```
-#### Assign events to HTML elements using event attributes. ####
+#### Task 22: Assign events to HTML elements using event attributes. ####
 
 ```
 <!DOCTYPE html>
@@ -627,3 +627,4 @@ function displayDate(){
 </html>
 
 ```
+#### 
