@@ -425,3 +425,31 @@ function myFunction(){
 ```
 ___
 ---
+
+### JavaScript HTML DOM - Changing CSS ###
+
+#### Task 16: Change the style of a `<p>` element using the syntax: `document.getElementById(id).style.property = new style`. ####
+
+```
+<!DOCTYPE html>
+<htlm>
+<body>
+
+<h2> JavaScript HTML DOM </h2>
+<p>Changing the HTML style: </p>
+
+<p id= "p1">Hello, world!</p>
+<p id= "p2">Changing the HTML style:</p>
+
+<script>
+document.getElementById("p2").style.color = "blue";
+document.getElementById("p2").style.fontFamily = "Georgia";
+document.getElementById("p2").style.fontSize = "larger";
+</script>
+
+</body>
+</html>
+
+```
+___
+---
