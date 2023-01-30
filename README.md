@@ -2,7 +2,7 @@
 
 [Source](https://www.w3schools.com/js/js_htmldom.asp)
 
-##DOM MANIPULATION##
+## DOM MANIPULATION ##
 
 ### Task 1: Change the content of the `<p>` element with id="demo".###
 
@@ -160,3 +160,8 @@ document.getElementById("demo").innerHTML = "The first paragraph (index 0) with 
 </html>
 
 ```
+
+___
+---
+
+### Task 7: Finds the form element with id="frm1", in the forms collection, and displays all element values. ###
