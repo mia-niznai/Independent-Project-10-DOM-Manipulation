@@ -510,4 +510,62 @@ ___
 
 ```
 
-####
+#### Task 19: Create full animation using JavaScript. ####
+
+```
+<!DOCTYPE html>
+<html>
+<style>
+#container{
+    width: 400px;
+    heigth: 400px;
+    position: relative;
+    background: yellow;
+}
+
+#animate{
+    width: 50px;
+    heigth: 50px;
+    position: absolute;
+    background: red;
+}
+
+</style>
+<body>
+
+<p><button onclick="myMove()">Click me!</button></p>
+
+<div id = "container">
+<div id = "animate"></div>
+</div>
+
+<h2> My first JavaScript Animation </h2>
+
+
+<script>
+function myMove(){
+   let id = null;
+   const elem = document.getElementById("animate");
+   let pos = 0;
+   clearInterval(id);
+   id = setInterval(frame, 5);
+   function frame(){
+    if(pos === 350){
+        clearInterval(id);
+        } else {
+            pos++;
+            elem.style.top = pos + "px";
+            elem.style.left = pos + "px";
+    }
+  }
+} 
+</script>
+
+</body>
+</html>
+
+```
+___
+---
+
+###
