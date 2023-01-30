@@ -359,8 +359,7 @@ function validateForm(){
 </body>
 </html>
 ```
-___
----
+
 
 ### JavaScript can validate numeric input ###
 
@@ -399,6 +398,29 @@ function myFunction(){
 
 </body>
 </html>
+
+```
+
+### Automatic HTML form validation ###
+
+#### Task 15: HTML form validation can be performed automatically by the browser: if a form field (fname) is empty, the required attribute prevents this form from being submitted."
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2> JavaScript Validation </h2>
+
+<form action="/action_page.php" method = "post">
+    <input type = "text" name = "fname" required>
+    <input type = "submit" value = "Submit">
+</form>
+
+<p> If you click submit without filling out the text field, your browser will display an error message.</p>
+
+</body>
+<html>
 
 ```
 ___
