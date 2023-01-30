@@ -656,7 +656,8 @@ function displayDate() {
 
 #### Task 24: Add an event listener that fires when a user clicks a button. ####
 
-```
+{{< highlight go >}}
+
 <!DOCTYPE html>
 <html>
 <body>
@@ -679,4 +680,4 @@ function displayDate(){
 
 </body>
 </html>
-```
+{{< /highlight >}}
