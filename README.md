@@ -11,8 +11,21 @@ ___
 
 #### Task 1: Change the content of the `<p>` element with id="demo".####
 
-<iframe src="https://github.com/mia-niznai/Independent-Project-10-DOM-Manipulation/blob/main/first.html"></iframe>
+```
+<!DOCTYPE html>
+<html>
+<body>
 
+<h2> Let's practice! </h2>
+< p id = "demo"> </p>
+
+<script>
+document.getElementById("demo").innerHTML = "Here I can add whatever new content I want."
+</script>
+
+</body>
+</html>
+```
 ___
 ---
 
@@ -643,8 +656,7 @@ function displayDate() {
 
 #### Task 24: Add an event listener that fires when a user clicks a button. ####
 
--------------------------------------------------------------------------------------
-
+```
         <!DOCTYPE html>
         <html>
         <body>
@@ -668,4 +680,28 @@ function displayDate() {
         </body>
         </html>
 
----------------------------------------------------------------------------------------------------
+```
+
+#### Task 25: Add an event handler to an element. ####
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript addEventListener()</h2>
+
+<p>This example uses the addEventListener() method to attach a click event to a button.</p>
+
+<button id="myBtn">Try it</button>
+
+<script>
+document.getElementById("myBtn").addEventListener("click", function() {
+  alert("Hello World!");
+});
+</script>
+
+</body>
+</html>
+
+```
