@@ -11,21 +11,8 @@ ___
 
 #### Task 1: Change the content of the `<p>` element with id="demo".####
 
-```
-<!DOCTYPE html>
-<html>
-<body>
+<iframe src="https://github.com/mia-niznai/Independent-Project-10-DOM-Manipulation/blob/main/first.html"></iframe>
 
-<h2> Let's practice! </h2>
-< p id = "demo"> </p>
-
-<script>
-document.getElementById("demo").innerHTML = "Here I can add whatever new content I want."
-</script>
-
-</body>
-</html>
-```
 ___
 ---
 
