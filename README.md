@@ -629,6 +629,7 @@ function displayDate(){
 ```
 #### Task 23: Assign events to HTML elements using JavaScript (HTML DOM).
 
+```
 <DOCTYPE html>
 <html>
 <body>
@@ -649,3 +650,33 @@ function displayDate() {
 
 </body>
 </html> 
+```
+
+### JavaScript HTML DOM EventListener ###
+
+#### Task 24: Add an event listener that fires when a user clicks a button. ####
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2> JavaScript addEventListener() </h2>
+
+<p> This example uses the addEventListener() method to attach a click event to a button. </p>
+
+<button id = "myBtn"> Try it! </button>
+
+<p id = "demo"></p>
+
+<script>
+document.getElementById("myBtn").addEventListener("click", displayDate);
+
+function displayDate(){
+    document.getElementById("demo").innerHTML = Date();
+}
+</script>
+
+</body>
+</html>
+```
