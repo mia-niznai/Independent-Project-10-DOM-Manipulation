@@ -331,4 +331,37 @@ ___
 
 ### JavaScript Form Validation ###
 
-#### Task 13: 
+#### Task 13: If a form field (fname) is empty, this function alerts a message, and returns false, to prevent the form from being submitted. ####
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function validateForm(){
+    let x = document.forms["myForm"]["fname"].value;
+    if (x === ""){
+        alert("Name must be filled out");
+        return false;
+    }
+}
+</script>
+<head>
+<body>
+
+<h2> JavaScript Validation </h2>
+
+<form name="myForm" action="/action.page.php" onsubmit = "return validateForm()" method: "post">
+    Name: <input type = "text" name= "fname">
+    <input type = "submit" value="Submit">
+</form>
+
+</body>
+</html>
+```
+___
+---
+
+### JavaScript can validate numerit input ###
+
+#### Task 14: 
