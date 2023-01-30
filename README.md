@@ -656,28 +656,29 @@ function displayDate() {
 
 #### Task 24: Add an event listener that fires when a user clicks a button. ####
 
-{{% mdshortcode %}}
+-------------------------------------------------------------------------------------
 
-<!DOCTYPE html>
-<html>
-<body>
+        <!DOCTYPE html>
+        <html>
+        <body>
 
-<h2> JavaScript addEventListener() </h2>
+        <h2> JavaScript addEventListener() </h2>
 
-<p> This example uses the addEventListener() method to attach a click event to a button. </p>
+        <p> This example uses the addEventListener() method to attach a click event to a button. </p>
 
-<button id = "myBtn"> Try it! </button>
+        <button id = "myBtn"> Try it! </button>
 
-<p id = "demo"></p>
+        <p id = "demo"></p>
 
-<script>
-document.getElementById("myBtn").addEventListener("click", displayDate);
+        <script>
+        document.getElementById("myBtn").addEventListener("click", displayDate);
 
-function displayDate(){
-    document.getElementById("demo").innerHTML = Date();
-}
-</script>
+        function displayDate(){
+            document.getElementById("demo").innerHTML = Date();
+        }
+        </script>
 
-</body>
-</html>
-{{% /mdshortcode %}}
+        </body>
+        </html>
+
+---------------------------------------------------------------------------------------------------
