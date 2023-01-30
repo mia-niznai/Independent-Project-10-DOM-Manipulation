@@ -568,4 +568,39 @@ function myMove(){
 ___
 ---
 
-###
+### JavaScript HTML DOM events ###
+
+#### Task 20: Make the content of the `<h3>` element change when a user clicks on it. ####
+
+```
+<DOCTYPE html>
+<html>
+<body>
+
+<h2> JavaScript HTML Events </p>
+<h3 onclick = "this.innerHTML = 'Oooops!' "> Click on this text! </h3>
+
+</body>
+</html>
+
+```
+#### Task 21: 20: Make the content of the `<h3>` element change when a user clicks on it, this time using a function called from the event handler. ####
+
+```
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2> JavaScript HTML Events </h2>
+<h3 onclick = "changeText(this)"> Click on this text! </h3>
+
+<script>
+function changeText(id){
+    id.innerHTML = "Ooops!";
+}
+</script>
+
+</body>
+</html>
+
+```
